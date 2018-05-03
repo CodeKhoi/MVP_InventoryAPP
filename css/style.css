@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #3E3E3B;
+}
+
+nav ul li:hover {
+   background-color: #4C586F;
+}
+
+
+.input-field input[type=text]:focus + label {
+     color: #4C586F !important;
+     margin-top: 10px;
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #4C586F !important;
+     box-shadow: 0 1px 0 0 #4C586F !important;
+     margin-top: 10px;
+   }
+
+span.card-title {
+	font-size: 20px !important;
+}
+
+.card-image {
+	border: 1px solid #777;
+	margin: 0px 10px 0px 10px;
+}
+
+.card {
+	margin-top: 0;
+	background-color: #eee;
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+
+.tab a {
+  color: #1D944C !important;
+}
+
+.tab .active {
+  background-color: #3E3E3B !important;
+  color: #fff !important;
+  opacity: .5;
+}
+
+.indicator {
+  background-color: #1D944C !important;
+}
+
+footer {
+	background-color: #1D944C;
+  	height: 800px;
+  	padding-top: 20px;
+  	border-top: 5px solid #eee;
+}
+
+.links a {
+	color: #111;
+}
+
+a {
+	color: #194;
+}
+
+.copy {
+	color: #111;
+}
+
+
+@media screen and (max-device-width: 968px), screen and (max-width: 968px) {
+
+	nav {
+		padding: 0;
+	} 
+
+}
